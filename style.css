@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300&display=swap');
+
+nav {             /* Gray */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:space-between;
+    align-items: center;
+    /* height: 100px; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav > h1{         /* Red */
+  font-size: 60px;
+  width: 160px;
+  justify-self: left;
+}
+
+nav > img{        /* Cyan */
+  width: 200px;
+  justify-self: center;
+}
+
+nav > div{        /* Green */
+  height: 60px;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  justify-self: right;
+}
+
+nav > div > img{  /* Blue */
+  height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+ Reset and Font You don't need to change this.
+*/
+
+*{
+    margin:0; /*  Removes the space around all elements*/ 
+}
+nav > h1{
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+}
+
+
+/*
+Background-color delete the next line to comment the colours
+*/
+
+nav {
+  background-color:rgb(0,0,0,.25); 
+}
+nav > h1{
+  background-color:rgb(255,0,0,0.25); 
+}
+
+nav > img{
+  background-color:rgb(0,255,255,0.25);
+}
+
+nav > div{  
+  background-color:rgb(0,255,0,0.25); 
+}
+
+nav > div > img{
+  background-color:rgb(0,0,255,0.25);
+}
+
+
+
+
+
+
+
+
+
